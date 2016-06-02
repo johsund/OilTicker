@@ -1,0 +1,21 @@
+.qv-object-OilTicker div.qv-object-content-container {
+	overflow: hidden;
+}
+.qv-object-OilTicker td,
+.qv-object-OilTicker th {
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}
+.qv-object-OilTicker td.numeric {
+	text-align: right;
+}
+.qv-object-OilTicker button {
+	width: 100%;
+}
