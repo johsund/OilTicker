@@ -32,7 +32,7 @@ define( ["jquery", "text!./style.css", "./js/tv"], function ( $, cssContent, tv 
 				$("#" + id).empty();
 			}
 			else {
-				$element.append($('<iframe src="https://cdn.rawgit.com/johsund/OilTicker/master/tickerWidget.html" style="border: 0;overflow:hidden;"/>').attr("id", id).width(width).height(height));
+				$element.append($('<iframe src="https://cdn.rawgit.com/johsund/OilTicker/916e80cbc9e2286814897fd2928ab95cf6920608/tickerWidget.html" style="border: 0;overflow:hidden;"/>').attr("id", id).width(width).height(height));
 			}
 		}
 	};
